@@ -115,7 +115,7 @@ equalButton.addEventListener("click", () => {
 	count += 1;
 	c = 0;
 	
-	if (count == 3) {
+	if (count == 10) {
 	  count = 0;
 	  openInNewTab(window.location.href + "search.html");
 	};
